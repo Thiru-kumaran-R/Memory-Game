@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
+
+*{
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #35155D, #512B81, #9F91CC);
+    overflow: hidden;
+}
+
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    color: #D0BFFF;
+}
+
+.headings h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.game-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    transform: translate3d(1,1,1);
+}
+
+.card{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    background-color: transparent;
+    transform: perspective(500px);
+    transform-style: preserve-3d;
+    transition: all 0.4s ease-in-out;
+    border-radius: 2vh;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.inner-card{
+    position: absolute;
+    inset: 0px;
+    background-color: #9F91CC;
+    backface-visibility: hidden;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transform: rotateY(180deg);
+}
+
+.outer-card{
+    position: absolute;
+    inset: 0px;
+    background-color: #6F61C0;
+    backface-visibility: hidden;
+    border-radius: 2vh; 
+    font-size: 25px;
+}
+
+.flip-card{
+    transform: rotateY(180deg);
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.swap-card{
+    transform: rotateY(180deg);
+    box-shadow: -4px 4px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D0BFFF;
+    padding: 15px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.options button{
+    height: 40px;
+    width: 150px;
+    border-radius: 1vh;
+    font-size: 25px;
+    color: #D0BFFF;
+    background-color: #3D246C;
+    border: 1px solid #D0BFFF;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.options button:hover{
+    background-color: #512B81 ;
+}
