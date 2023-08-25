@@ -107,3 +107,53 @@ body{
 .options button:hover{
     background-color: #512B81 ;
 }
+
+.pop-up{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    background: linear-gradient(215deg, #6F61C0, #9F91CC);
+    border-radius: 2vh;
+    color: #D0BFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #35155D;
+    scale: 0;
+    transition: scale 0.3s;
+}
+
+.pop-up img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -17%;
+}
+
+.open{
+    scale: 1;
+}
+
+.pop-up h2{
+    width: 60%;
+    margin-top: 20px;
+}
+
+.pop-up button{
+    height: 40px;
+    width: 300px;
+    border-radius: 1vh;
+    font-size: 25px;
+    color: #D0BFFF;
+    background-color: #3D246C;
+    font-weight: 900;
+    margin-top: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.pop-up button:hover{
+    background-color: #512B81 ;
+}
