@@ -4,4 +4,4 @@ Exercise your mind with the most popular  interactive  memory game. This project
 ## Demo
 
 Try this Memory game in the following url :
-https://thirukumaran05.github.io/Memory-Game/
+[https://thirukumaran05.github.io/Memory-Game/](https://thiru-kumaran-r.github.io/Memory-Game/)
