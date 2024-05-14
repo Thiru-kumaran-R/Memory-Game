@@ -46,4 +46,4 @@ The objective of the game is to find all the matching pairs of cards with the fe
 ## Demo
 
 Try this Memory game in the following url :
-[https://thirukumaran05.github.io/Memory-Game/](https://thiru-kumaran-r.github.io/Memory-Game/)
+ https://thiru-kumaran-r.github.io/Memory-Game/
